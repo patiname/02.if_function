@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>함수</title>
+
+    <script>
+
+        // *함수
+        // =>어떠한 식(명령어 등)을 그룹화 시켜서 
+        // 필요에 따라 호출할때 사용
+
+        // *선언적 함수
+        // =>함수에 이름이 있음
+        // =>정의 앞에 호출하면 정상적으로 함수를 인식
+        // =>이유는 브라우저가 스크립트를 읽고 제일처음에 찾는게 선언적함수
+        // 우선순위가 높음
+
+        // *익명 함수
+        // =>함수에 이름이 없음
+
+        // fn();
+        // function fn(){
+        //     document.write('선언적 함수');
+        // }
+
+        // var fn_2 = function(){
+        //     document.write('익명함수');
+        // }
+        // fn_2();
+
+        
+        // *매개변수 (parmetar)
+        // =>호출 한 함수 명 안쪽으로 변수를 넣을수 있음
+
+
+        // function writing(a){
+        //     document.write(a);
+        // }
+        // writing('내맘대로');
+        // writing('두번째로~~');
+
+        function intro(names, age){
+            document.write(`안녕 난 ${names}이야 나이는 ${age}세이지<br>`);
+        }
+        intro('이정환', 5);
+        intro('김은지', 15);
+        intro('한연휘', 10);
+
+        
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
